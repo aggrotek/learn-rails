@@ -15,10 +15,6 @@ gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
-gem 'compass-rails'
-gem 'zurb-foundation'
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-# gem 'binding_of_caller'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :mri_21, :rbx]
@@ -31,4 +27,3 @@ group :production do
   gem 'rails_12factor'
   gem 'thin'
 end
-

@@ -1,0 +1,37 @@
+h1. CHANGELOG
+
+h3. 2.0.0 April 11, 2014 (book version 2.0.0)
+
+* extensive changes for Ruby 2.1 and Rails 4.1
+
+h3. 1.19.2 March 6, 2014 (book version unreleased)
+
+* ok to specify 'foundation-rails' (foundation-rails 5.2.0.0 resolves issue #27)
+
+h3. 1.19.1 February 19, 2014 (book version unreleased)
+
+* specify 'foundation-rails 5.0.3.1' (don't use foundation-rails 5.1.1.0) pending resolution of issue #27
+* update to Rails 4.0.3
+
+h3. 1.19.0 February 1, 2014 (book version 1.19)
+
+* use Foundation 5.0.3
+
+h3. 1.18.0 January 10, 2014 (book version 1.18)
+
+* Update from Ruby 2.0.0 to Ruby 2.0.1
+* added ActionMailer configuration values to file 'config/environments/development.rb'
+* added ActionMailer configuration values to file 'config/environments/production.rb'
+
+Changes in the book:
+
+* Changed one line in the "Front-End Framework" chapter to accommodate a change in the rails_layout gem version 1.0.1. The command @rails generate layout foundation4 --force@ becomes @rails generate layout:install foundation4 --force@.
+
+h3. 1.17.2 December 8, 2013 (book version 1.17)
+
+* update to Rails 4.0.2
+* use Foundation 4 pending resolution of issue #10
+
+h3. 1.17.1 December 5, 2013 (book version 1.17)
+
+* fix tracking in segmentio.js (issue #2)
